@@ -7,7 +7,8 @@ public class Gato {
     private String cor;
     private Integer idade;
 
-    public Gato() {    }
+    public Gato() {
+    }
 
     public Gato(String nome, String cor, Integer idade) {
         this.nome = nome;
@@ -38,6 +39,7 @@ public class Gato {
     public void setIdade(Integer idade) {
         this.idade = idade;
     }
+
 
     @Override
     public boolean equals(Object o) {
